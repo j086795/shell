@@ -1,0 +1,5 @@
+#!/bin/bash
+#Utilizando o comando read
+echo "Qual o nome de uma de suas musicas favoritas?"
+read nome_musica;
+echo "Voce gosta de ouvir $nome_musica!"

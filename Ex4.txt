@@ -1,0 +1,11 @@
+#!/bin/bash
+#Este programa verifica se o numero informado é maior ou menor que 20
+#Utilizando o comando if then else fi
+  echo "Digite um numero qualquer:"
+  read numero;
+  if [ $numero -gt 20 ];
+  then
+   echo "Este número é maior que 20!"
+  else
+   echo "Este número é menor que 20!|"
+  fi

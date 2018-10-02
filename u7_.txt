@@ -1,0 +1,18 @@
+#!/bin/bash
+function calculaMedia()
+{
+	MEDIA=$((($1+$2+$3+$4)/4));
+
+	echo $MEDIA;
+}
+
+function passou()
+{
+	if [ $1 -ge 7 ] ; then
+		echo "ok";
+	else
+		echo "não passou"
+	fi
+}
+
+passou $( calculaMedia $1 $2 $3 $4 )

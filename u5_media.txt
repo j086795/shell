@@ -1,0 +1,13 @@
+#!/bin/bash
+# Calculo de media utilizando funcao
+function calculaMedia()
+{
+MEDIA=$((($1+$2+$3+$4)/4))
+echo "Sua média foi $MEDIA"
+if [ $MEDIA -ge 6 ]; then
+echo "Sua média foi $MEDIA. Voce foi APROVADO!"
+else
+echo "Sua média foi $MEDIA. Voce foi REPROVADO!"
+fi
+}
+calculaMedia $1 $2 $3 $4

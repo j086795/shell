@@ -1,0 +1,8 @@
+#!/bin/bash
+echo Foram digitados $# parâmetros. São eles: $*.
+echo O nome do script é $0 e seus parâmetros são
+c=0
+for param in $*; do
+echo parâmetro número $c: $1 ; shift
+(( c++ ))
+done

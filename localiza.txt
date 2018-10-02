@@ -1,0 +1,5 @@
+#!/bin/bash
+#Localiza arquivos ou diretórios
+#procura no HD o arquivo gg.txt
+find . -name gg.txt
+

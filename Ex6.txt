@@ -1,0 +1,24 @@
+#!/bin/bash
+#Este programa mostra o uso do comando case esac
+  echo "Selecione uma opção:"
+  echo "1 - Exibir caminho"
+  echo "2 - Reconhecendo o root"
+  echo "3 - Exibir uma mensagem"
+
+  read opcao;
+
+   case $opcao in
+    1)
+      pwd
+      echo
+      ;;
+    2)
+      [ "$USER" = 'root' ]
+      echo 'Oi root'
+      echo
+      ;;
+    3)
+      echo 'Olá Mundo'
+      echo
+      ;;
+  esac

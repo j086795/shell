@@ -1,0 +1,3 @@
+#!/bin/bash
+#procura no HD todos os arquivos com extensão txt
+find . -name "*.txt" -print

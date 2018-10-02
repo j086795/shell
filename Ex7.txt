@@ -1,0 +1,29 @@
+#!/bin/bash
+#Este programa utiliza o comando esac
+  echo "Selecione uma opcao:"
+  echo "1 - Exibir a palavra amarelo"
+  echo "2 - Exibir o resultado da multiplicacao de 10*10"
+  echo "3 - Exibir os arquivos txt"
+
+  read opcao;
+
+   case $opcao in
+    1)
+	
+      	echo -e '\e[33;1m amarelo \e[m'
+      	echo -e '\033[33;1m amarelo \033[m'
+	echo
+	$SHELL
+	;;
+    2)
+	result=$((10*10))
+	echo "multiplicacao de 10*10 = $result"
+	echo
+	$SHELL
+	;;
+    3)
+	echo *.txt
+	echo
+	$SHELL
+	;;
+  esac

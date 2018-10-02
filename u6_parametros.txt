@@ -1,0 +1,13 @@
+#!/bin/bash
+set 45 60 89
+echo "Numero de parametros : $#"
+echo "O segundo parametro e : $2"
+echo "Os parametros são: $@"
+
+set pessego maca
+echo "Numero de parametros: $#"
+echo "Os parametros sao : $@"
+
+set mouse
+echo "Numero de parametros: $#"
+echo "Os parametros sao : $@"

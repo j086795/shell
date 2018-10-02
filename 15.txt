@@ -1,0 +1,3 @@
+#!/bin/bash
+#procura no HD todos os arquivos que comecam com a letra g
+find . -name "g*.*" -print
