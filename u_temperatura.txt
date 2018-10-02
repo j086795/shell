@@ -1,0 +1,9 @@
+#!/bin/bash
+	if test $# -eq 0 # Se nenhum parametro for digitado em $1, da a mensagem de echo e fecha o programa
+	then
+		echo "falta parametro"
+		exit
+	else
+		fire=$(((9 * $1 +100) /5))
+		echo "Temperatura em firenheit = $fire F"
+	fi
