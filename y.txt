@@ -1,0 +1,8 @@
+#!/bin/bash
+LIMITE=10
+ESPACO=""
+for ((a=1; a <= LIMITE ; a++))
+do
+echo "$ESPACO Sou um programa Shell!"
+ESPACO+=" "
+done

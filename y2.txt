@@ -1,0 +1,7 @@
+#!/bin/bash
+i=150
+while [ $i -ne 0 ]
+do
+	echo $i
+	i=`expr $i - 1`
+done
